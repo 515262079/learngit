@@ -1,0 +1,150 @@
+body{padding: 0px;margin: 0px;}
+#body p,h1,h2,h3,h4,h5,h6,small,span,a{font-family: '微软雅黑';}
+a:active,a:focus {outline:none;}
+/*导航条*/
+	.navbar{
+		background-color: #fff;
+		opacity: .7;
+		height: 70px;
+	}
+	.navbar-toggle{
+		margin-top: 20px;
+	}
+	.logo{
+		width: 137px;
+		height: 34px;
+		margin-top: 20px;
+		margin-left: 30px;
+		cursor: pointer;
+  		transition: all 0.4s;
+	}
+	.logo:hover{transform:translatex(10px);}
+	.cctv{
+		margin-top: 20px;
+		margin-left: 10px;
+		cursor: pointer;
+  		transition: all 0.4s;
+	}
+	.cctv:hover{transform:translatex(10px);}
+	.nav a{
+		color:#2f2f2f;
+		font-size: 15px;
+		font-family: '微软雅黑';
+		margin-top: 12px;
+		cursor: pointer;
+  		transition: all 0.4s;
+	}
+	.nav a:hover{transform:translatex(10px);}
+	.nav:first-child{
+		margin-left: 180px;
+	}
+/*导航条*/
+/*轮播图*/
+	.swiper-slide img{
+		width: 100%;
+		height: 450px;
+		cursor: pointer;
+  		transition: all 0.4s;
+	}
+	.swiper-slide img:hover{transform:translatey(-40px);}
+/*轮播图*/
+/*box*/
+	.box img{
+		margin-top: 40px;
+		cursor: pointer;
+  		transition: all 0.4s;
+	}
+	.box img:hover{
+		margin-top: 32px;
+		box-shadow:3px 8px 50px #888888;
+		transform: scale(0.9);
+	}
+/*box*/	
+/*案例*/
+	.anli{margin-top: 40px; /*background-color: skyblue;height: 500px;*/}
+	.anli img{
+		cursor: pointer;
+  		transition: all 0.4s;
+	}
+	.anli img:hover{
+		transform: scale(0.9);
+	}
+	.anliimg{margin-top: 20px;}
+/*案例*/
+/*服务流程*/
+	.fuwucc{/*border: 1px solid red;*/ border-radius: 50%;cursor: pointer;transition: all 0.4s;}
+	.fuwucc:hover{border-radius: 50%;transform: scale(1.3);}
+	.fuwu a{text-decoration: none;}
+/*服务流程*/
+/*独家策划*/
+	.djch img{
+		cursor: pointer;
+  		transition: all 0.4s;
+	}
+	.djch img:hover{
+		box-shadow:3px 8px 50px #888888;
+		transform: scale(0.9);
+		transform:translateY(-10px);
+	}
+/*独家策划*/	
+/*家装攻略*/
+	.jzgl a{color:#5E5E5E;}
+	.jzgl a:hover{color:#00FF00;}
+	.jzglcc{
+		cursor: pointer;
+  		transition: all 0.4s;
+	}
+	.jzglcc:hover{
+		box-shadow:3px 8px 50px #888888;
+		/*transform: scale(1.8);*/
+		transform:translateY(10px);
+	}
+/*家装攻略*/
+/*页脚*/
+	.footer{/*background-image: url(../images/foot.jpg);*/ background-color: #2F4F4F;margin-top: 100px; }
+	.footer h4{color:#fffaec;}
+	.footer a{color:#beb9b6;}
+	.footer a:hover{text-decoration:1px;}
+	.foottxt{cursor: pointer;transition: all 0.4s;}
+	.foottxt:hover{transform:translatex(10px);}
+	.ewm{cursor: pointer;transition: all 0.4s;}
+	.ewm:hover{transform:translatex(10px);}
+	.ewm h1{color:#84be2b;}
+	.ewm h4{color:#949492;}
+	.end{color:#beb9b6;margin-top:15px;border-top: 1px solid #beb9b6;padding-top:5px;font-size: 8px;cursor: pointer;transition: all 0.4s;}
+	.end:hover{transform:translateX(10px);}
+/*页脚*/                      
+/*媒体查询*/
+	@media screen and (min-width: 768px){
+		.anlip{margin-bottom: 40px;}
+		.anli h4{margin-top: 10px;}
+		.fuwu h2{margin-top: 100px; padding-bottom: 60px;}
+		.djch h2{margin-top: 100px; padding-bottom: 60px;}
+		.jzgl h2{margin-top: 100px;}.jzgl h5{padding-bottom: 60px;}
+		.jzgl img{height: 175px;padding-bottom: 10px;}
+		.foottxt{margin-top: 10%;/*border: 1px solid red;*/}
+		.ewm{margin-top: 8%;}
+		.ewm h1{color:#84be2b;}
+		.ewm h4{color:#949492;margin-top: 5%;}
+	}
+	@media screen and (max-width: 768px){
+		.nav a{margin-left: 80px;}
+		.swiper-slide img{width: 100%;height: 220px;}
+		.box img{margin-top: 12px; width:100%;}
+		.box img:hover{margin-top: 8px;box-shadow:3px 8px 50px #888888;}
+		.nav:first-child{margin-left: 30px;}
+		.anli{margin-top: 10px; /*background-color: skyblue;height: 500px;*/}	
+		.djch img{margin-top: 15px;}
+		.jzgl img{height: 150px;padding-bottom: 10px;}
+		.ewm h2{font-size:12px;}
+		.ewm h1{font-size:14px;}
+		.ewm h4{font-size:10px;}
+	}
+	@media screen and (min-width: 900px){
+		.nav:first-child{margin-left: 250px;}
+	}
+	@media screen and (max-width:260px){
+		.logo{display: none;}
+		.cctv{display: none;}
+	}
+/*媒体查询*/
